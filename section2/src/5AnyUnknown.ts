@@ -9,7 +9,6 @@ function getSalaryFromExternalService(employeeId: number): unknown{
 }
 
 let salary = getSalaryFromExternalService(123);
-
 if (typeof salary === 'number') { // type narrowing
     salary++
 };
